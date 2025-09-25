@@ -1,0 +1,121 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4; 
+  color: #222;
+}
+body.index {
+  background: #fff;
+}
+
+header {
+  background: #004aad;
+  color: #fff;
+  padding: 18px 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+nav {
+  background: #fff;
+  padding: 8px 24px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.menu a {
+  color: #004aad;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  max-width: 1100px;
+  margin: 18px auto;
+  padding: 12px;
+}
+
+.card {
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 74, 173, 0.2);
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+th {
+  background: #f9fbff;
+  color: #004aad;
+}
+
+.pos {
+  width: 36px;
+  text-align: center;
+}
+
+.pontos {
+  text-align: center;
+  width: 80px;
+}
+
+.time-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+li {
+  font-family: 'Merriweather', serif;
+}
+
+.card-1 {
+  background-color: #f9fbff;
+}
+
+.card-2 {
+  background-color: #fff;
+}
+
+.card-3 {
+  background-color: #f9fbff;
+}
+
+.card-4 {
+  background-color: #fff;
+}
+
+.card-5 {
+  background-color: #f9fbff;
+}
